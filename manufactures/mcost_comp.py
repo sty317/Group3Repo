@@ -3,7 +3,7 @@ import numpy as np
 from openmdao.api import ExplicitComponent
 
 
-class maintcost(ExplicitComponent):
+class MCcomp(ExplicitComponent):
 
 #Ca : aircraft cost less engine
 #Ce : cost per engine
